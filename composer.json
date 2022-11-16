@@ -1,7 +1,7 @@
 {
     "name": "hexlet/code",
     "description": "My first project from Hexlet",
-    "license": "no",
+    "license": "GFDL-1.2-only",
     "autoload": {
         "psr-4": {
             "Hexlet\\Code\\": "src/"
@@ -12,6 +12,9 @@
             "name": "SBarrylie",
             "email": "xcedorg@yandex.ru"
         }
+    ],
+    "bin" : [
+        "bin/brain-games"
     ],
     "require": {}
 }
