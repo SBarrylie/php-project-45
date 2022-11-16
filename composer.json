@@ -1,0 +1,17 @@
+{
+    "name": "hexlet/code",
+    "description": "My first project from Hexlet",
+    "license": "no",
+    "autoload": {
+        "psr-4": {
+            "Hexlet\\Code\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "SBarrylie",
+            "email": "xcedorg@yandex.ru"
+        }
+    ],
+    "require": {}
+}
