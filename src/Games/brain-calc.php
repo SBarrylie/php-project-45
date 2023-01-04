@@ -31,5 +31,5 @@ for ($i = 0; $i <= 2; $i += 1) {
 }
 // Запуск игры
 $userName = hello();
-line('Answer "yes" if the number is even, otherwise answer "no".');
+line('What is the result of the expression?');
 engine($quests, $answers, $userName);
