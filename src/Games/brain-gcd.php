@@ -7,7 +7,8 @@ use function BrainGames\Cli\hello;
 use function cli\line;
 
 // Функция "НОД"
-function gcd(int $a, int $b) {
+function gcd(int $a, int $b)
+{
     if ($b > $a) {
         $c = $a;
         $a = $b;
