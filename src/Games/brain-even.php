@@ -5,7 +5,6 @@ require_once __DIR__ . '/../../vendor/autoload.php';
 use function BrainGames\Engine\engine;
 use function BrainGames\Cli\hello;
 use function cli\line;
-use function cli\prompt;
 
 // Генерация вопросов и ответов
 $quests = [];
