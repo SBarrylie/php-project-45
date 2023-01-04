@@ -10,8 +10,8 @@ use function cli\prompt;
 // Генерация вопросов и ответов
 $quests = [];
 $answers = [];
-for($i = 0; $i <= 2; $i += 1){
-    $randomNumber = rand(1,100);
+for ($i = 0; $i <= 2; $i += 1) {
+    $randomNumber = rand(1, 100);
     $answer = $randomNumber % 2 == 0 ? 'yes' : 'no';
     $quests[] = $randomNumber;
     $answers[] = $answer;
