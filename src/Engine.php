@@ -6,7 +6,7 @@ use function BrainGames\Cli\hello;
 use function cli\line;
 use function cli\prompt;
 
-function engine(array $quests, array $answers, $userName)
+function engine(array $quests, array $answers, string $userName)
 {
     $correct_answers = 0;
     for ($i = 0; $i < 3; $i++) {
