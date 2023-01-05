@@ -23,8 +23,6 @@ function progressionGenerator()
         }
         $progressionStart += $progressionStep;
     }
-    mb_internal_encoding("UTF-8");
-    $quest = mb_substr($quest, 1);
     return [$quest, $answer];
 }
 
@@ -33,7 +31,8 @@ $quests = [];
 $answers = [];
 for ($i = 0; $i <= 2; $i += 1) {
     $result = progressionGenerator();
-    $quests[] = $result[0];
+    $quest = substr($result[0], 1, strlen($result[0]));
+    $quests[] = $quest;
     $answers[] = $result[1];
 }
 
