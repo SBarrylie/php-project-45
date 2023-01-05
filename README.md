@@ -8,4 +8,6 @@ Start brain-gcd
 [![asciicast](https://asciinema.org/a/8Ih17GiGVwvVV1ZH6TzmziUe6.svg)](https://asciinema.org/a/8Ih17GiGVwvVV1ZH6TzmziUe6)
 Start brain-progression
 [![asciicast](https://asciinema.org/a/LO6DW0w9k9GakJyrPIKOp54R3.svg)](https://asciinema.org/a/LO6DW0w9k9GakJyrPIKOp54R3)
+Start brain-prime
+[![asciicast](https://asciinema.org/a/wXvCGwDIMjc8caTQcKgmZ8EeA.svg)](https://asciinema.org/a/wXvCGwDIMjc8caTQcKgmZ8EeA)
 [![Actions Status](https://github.com/SBarrylie/php-project-45/workflows/hexlet-check/badge.svg)](https://github.com/SBarrylie/php-project-45/actions)
