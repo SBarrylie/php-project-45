@@ -8,10 +8,11 @@ use function cli\line;
 
 // Функция "НОД"
 
-function generateNumber(){
+function generateNumber()
+{
     $work = true;
     $result = 0;
-    while($work) {
+    while ($work) {
         $randomNumber = rand(2, 151);
         if ($randomNumber == 2) {
             $result = $randomNumber;
@@ -24,10 +25,11 @@ function generateNumber(){
     return $result;
 }
 
-function isPrime(int $num){
+function isPrime(int $num)
+{
     $result = true;
-    for ($i = 2; $i < $num; $i += 1){
-        if ($num % $i == 0){
+    for ($i = 2; $i < $num; $i += 1) {
+        if ($num % $i == 0) {
             $result = false;
             break;
         }
