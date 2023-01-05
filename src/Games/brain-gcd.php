@@ -27,7 +27,7 @@ $answers = [];
 for ($i = 0; $i <= 2; $i += 1) {
     $randomNumberOne = rand(1, 100);
     $randomNumberTwo = rand(1, 100);
-    $quest = "{$randomNumberOne} and {$randomNumberTwo}";
+    $quest = "{$randomNumberOne} {$randomNumberTwo}";
     $answer = gcd($randomNumberOne, $randomNumberTwo);
     $quests[] = $quest;
     $answers[] = $answer;
