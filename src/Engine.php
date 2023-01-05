@@ -18,7 +18,7 @@ function engine(array $quests, array $answers, $userName)
             $correct_answers += 1;
         } else {
             line("{$user_answer} is wrong answer ;(. Correct answer was {$answers[$i]}.");
-            line("Let`s try again, %s!", $userName);
+            line("Let's try again, %s!", $userName);
             break;
         }
     }
