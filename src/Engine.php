@@ -23,6 +23,6 @@ function engine(array $quests, array $answers, $userName)
         }
     }
     if ($correct_answers == 3) {
-        line("Congratulations %s!", $userName);
+        line("Congratulations, %s!", $userName);
     }
 }
