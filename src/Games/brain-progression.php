@@ -23,6 +23,8 @@ function progressionGenerator()
         }
         $progressionStart += $progressionStep;
     }
+    mb_internal_encoding("UTF-8");
+    $quest = mb_substr($quest, 1);
     return [$quest, $answer];
 }
 
